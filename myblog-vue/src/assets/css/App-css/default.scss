@@ -1,0 +1,107 @@
+body{
+  background-image: url('https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2358170576,72594383&fm=26&gp=0.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
+  color: #444!important;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  font-family:Arial,"STHeiti", Helvetica, sans-serif;
+  font-size:14px;
+  min-height:100vh;
+}
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    width:100%;
+    overflow-x: hidden;
+    -webkit-overflow-x: hidden;
+    color: #444;
+  }
+h1, h2 {
+    font-weight: normal;
+}
+a {
+    color: #444;
+}
+.container{
+      max-width: 80%;
+      margin:0 auto;
+      padding:0 10px;
+}
+
+//组件过渡
+.v-enter,.v-leave-to{
+  opacity: 0;
+}
+.v-enter-to,.v-leave{
+  opacity: 1;
+}
+.v-enter-active,.v-leave-active{
+  transition:opacity 1s
+}
+
+
+//响应式
+@media screen and (max-width: 500px) {//500px 手机尺寸
+  
+  
+}
+@media screen and (max-width: 700px) {
+  .pc_header,
+  .headerImgBox{
+      display: none;
+  }
+  .phone_header,
+  .phone_top{//手机端导航栏显示
+      display: block;
+
+  }
+ 
+  
+ 
+}
+@media screen and (min-width: 701px) {
+  .pc_header,
+  .headerImgBox .title{
+      display: block !important;
+  }
+  .phone_header,
+  .phone_top{
+      display: none;
+  }
+
+  
+
+}
+@media screen and  (max-width:800px){
+  .container{
+      max-width: 100%!important;
+      margin:0 auto;
+  }
+ 
+}
+@media screen and  (min-width:801px) {
+  
+}
+@media screen and  (max-width:990px){
+ 
+}
+@media screen and  (min-width:991px){
+
+}
+
+
+.phone_header{
+  .el-input{
+    border-radius: 5px;
+    input.el-input__inner{
+      background-color: rgb(159 158 179);
+      border: none;
+      outline: none;
+      border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    }
+  }
+}
+
+  

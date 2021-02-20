@@ -1,0 +1,76 @@
+.showMessageBox{
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+    position: relative;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    h1{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .messageList{
+        ul li{
+            margin:10px;
+            border-bottom: 1px dotted #959ea1;
+            padding: 10px 0;
+            font-size: 16px;
+            &:last-of-type{
+                border-bottom: none;
+            }
+            .title{
+                img{
+                    display: inline-block;
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    vertical-align: baseline;
+                }
+                .title_user{
+                    margin-left: 10px;
+                    display: inline-block;
+                    span{
+                        display: block;
+                        font-size: 12px;
+                        margin: 5px 0;
+                        &:nth-child(1){
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+            .content{
+                padding: 10px 15px;
+                line-height: 1.5em;
+                letter-spacing: 1px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: 600;
+            }
+        }
+    }
+    .el-pagination{
+        display: flex;
+        justify-content: center;
+       
+        button{
+            min-width: 40px !important;
+            min-height: 40px;
+            line-height: 40px;
+        }
+        li{
+         min-width: 40px !important;
+         min-height: 40px;
+         font-size: 16px;
+         line-height: 40px;
+         &.btn-quicknext,&.btn-quickprev{
+             line-height: 40px;
+         }
+        }
+    }
+}

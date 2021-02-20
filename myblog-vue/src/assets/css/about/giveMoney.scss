@@ -1,0 +1,33 @@
+.pic_box{
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+    position: relative;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    img{
+        display: block;
+        margin: auto;
+        width: 100%;
+        max-width: 250px;
+        opacity: .9;
+        padding: 10px;
+    }
+     h1{
+        margin: 10px 0;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 30px;
+    }
+    p{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 2.5em;
+        font-family: "PingFang SC","Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    }
+}

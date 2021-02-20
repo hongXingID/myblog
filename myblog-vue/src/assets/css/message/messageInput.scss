@@ -1,0 +1,27 @@
+.message_input_box{
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+    position: relative;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    h1{
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 1.5em;
+        padding: 5px;
+        margin: 10px;
+    }
+    .message_input,
+    .username_input{
+        margin: 10px;
+    }
+    .btn{
+        display: flex;
+        justify-content: flex-end;
+        margin: 10px;
+    }
+}
